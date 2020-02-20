@@ -1,0 +1,4 @@
+EN hex_to_7seg NULL /home/lab661/Documents/SzymutkoStejskal/Digital_electronics_1/LABS/03-segment/hex_to_7seg/hex_to_7seg.vhd sub00/vhpl00 1582195065
+EN top NULL /home/lab661/Documents/SzymutkoStejskal/Digital_electronics_1/LABS/03-segment/hex_to_7seg/top.vhd sub00/vhpl02 1582195067
+AR hex_to_7seg behavioral /home/lab661/Documents/SzymutkoStejskal/Digital_electronics_1/LABS/03-segment/hex_to_7seg/hex_to_7seg.vhd sub00/vhpl01 1582195066
+AR top behavioral /home/lab661/Documents/SzymutkoStejskal/Digital_electronics_1/LABS/03-segment/hex_to_7seg/top.vhd sub00/vhpl03 1582195068
