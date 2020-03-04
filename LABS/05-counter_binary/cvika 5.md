@@ -1,4 +1,4 @@
-![equation](https://latex.codecogs.com/gif.latex?T_{clk}=\frac{1}{f_{clk}}=\frac{1}{10000}=0,0001s))
+![equation](https://latex.codecogs.com/gif.latex?T_{clk}=\frac{1}{f_{clk}}=\frac{1}{10000}=0,0001s)
     
 &nbsp;
 
