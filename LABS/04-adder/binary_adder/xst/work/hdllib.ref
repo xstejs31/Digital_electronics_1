@@ -1,0 +1,8 @@
+EN hex_to_7seg NULL /home/lab661/Documents/SzymutkoStejskal/Digital_electronics_1/LABS/03-segment/hex_to_7seg/hex_to_7seg.vhd sub00/vhpl06 1582800543
+EN half_adder NULL /home/lab661/Documents/SzymutkoStejskal/Digital_electronics_1/LABS/04-adder/binary_adder/half_adder.vhd sub00/vhpl00 1582800539
+EN top NULL /home/lab661/Documents/SzymutkoStejskal/Digital_electronics_1/LABS/04-adder/binary_adder/top.vhd sub00/vhpl04 1582800545
+EN full_adder NULL /home/lab661/Documents/SzymutkoStejskal/Digital_electronics_1/LABS/04-adder/binary_adder/Full_adder.vhd sub00/vhpl02 1582800541
+AR hex_to_7seg behavioral /home/lab661/Documents/SzymutkoStejskal/Digital_electronics_1/LABS/03-segment/hex_to_7seg/hex_to_7seg.vhd sub00/vhpl07 1582800544
+AR full_adder behavioral /home/lab661/Documents/SzymutkoStejskal/Digital_electronics_1/LABS/04-adder/binary_adder/Full_adder.vhd sub00/vhpl03 1582800542
+AR half_adder behavioral /home/lab661/Documents/SzymutkoStejskal/Digital_electronics_1/LABS/04-adder/binary_adder/half_adder.vhd sub00/vhpl01 1582800540
+AR top behavioral /home/lab661/Documents/SzymutkoStejskal/Digital_electronics_1/LABS/04-adder/binary_adder/top.vhd sub00/vhpl05 1582800546

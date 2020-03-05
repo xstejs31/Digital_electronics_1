@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "/home/lab661/Documents/SzymutkoStejskal/Digital_electronics_1/LABS/04-adder/binary_adder/half_adder.xst" -ofn "/home/lab661/Documents/SzymutkoStejskal/Digital_electronics_1/LABS/04-adder/binary_adder/half_adder.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc2c256-TQ144-6 half_adder.ngc half_adder.ngd  
+cpldfit -intstyle ise -p xc2c256-6-TQ144 -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 32 -pterms 28 -unused keeper -terminate keeper -iostd LVCMOS18 half_adder.ngd 
+XSLTProcess half_adder_build.xml 
+tsim -intstyle ise half_adder half_adder.nga 
+taengine -intstyle ise -f half_adder -w --format html1 -l half_adder_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -i half_adder 

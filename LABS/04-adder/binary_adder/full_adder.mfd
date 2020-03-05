@@ -1,0 +1,25 @@
+MDF Database:  version 1.0
+MDF_INFO | full_adder | XC2C256-6-TQ144
+MACROCELL | 0 | 3 | carry_o_MC
+ATTRIBUTES | 1074004738 | 0
+INPUTS | 3 | b_i  | a_i  | carry_i
+INPUTP | 3 | 213 | 214 | 212
+EQ | 3 | 
+   !carry_o = !b_i & !a_i
+	# b_i & !a_i & !carry_i
+	# !b_i & a_i & !carry_i;	// (3 pt, 3 inp)
+
+MACROCELL | 0 | 2 | sum_o_MC
+ATTRIBUTES | 1074004738 | 0
+INPUTS | 3 | b_i  | a_i  | carry_i
+INPUTP | 3 | 213 | 214 | 212
+EQ | 3 | 
+   sum_o = b_i
+	$ a_i & !carry_i
+	# !a_i & carry_i;	// (3 pt, 3 inp)
+
+PIN | a_i | 64 | 16 | LVCMOS18 | 214 | 2 | 0 | 3 | 0 | 2
+PIN | b_i | 64 | 16 | LVCMOS18 | 213 | 2 | 0 | 3 | 0 | 2
+PIN | carry_i | 64 | 16 | LVCMOS18 | 212 | 2 | 0 | 3 | 0 | 2
+PIN | carry_o | 536871040 | 0 | LVCMOS18 | 217
+PIN | sum_o | 536871040 | 0 | LVCMOS18 | 218
