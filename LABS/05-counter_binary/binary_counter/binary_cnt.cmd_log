@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/lab661/Documents/SzymutkoStejskal/Digital_electronics_1/LABS/05-counter_binary/binary_counter/binary_cnt.xst" -ofn "/home/lab661/Documents/SzymutkoStejskal/Digital_electronics_1/LABS/05-counter_binary/binary_counter/binary_cnt.syr" 

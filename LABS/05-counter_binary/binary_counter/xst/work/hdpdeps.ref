@@ -1,0 +1,30 @@
+V3 15
+FL /home/lab661/Documents/SzymutkoStejskal/Digital_electronics_1/LABS/03-segment/hex_to_7seg/hex_to_7seg.vhd 2020/02/20.10:47:41 P.20131013
+EN work/hex_to_7seg 1583404411 \
+      FL /home/lab661/Documents/SzymutkoStejskal/Digital_electronics_1/LABS/03-segment/hex_to_7seg/hex_to_7seg.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/hex_to_7seg/Behavioral 1583404412 \
+      FL /home/lab661/Documents/SzymutkoStejskal/Digital_electronics_1/LABS/03-segment/hex_to_7seg/hex_to_7seg.vhd \
+      EN work/hex_to_7seg 1583404411
+FL /home/lab661/Documents/SzymutkoStejskal/Digital_electronics_1/LABS/05-counter_binary/binary_counter/binary_cnt.vhd 2020/03/05.11:14:13 P.20131013
+EN work/binary_cnt 1583404409 \
+      FL /home/lab661/Documents/SzymutkoStejskal/Digital_electronics_1/LABS/05-counter_binary/binary_counter/binary_cnt.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/binary_cnt/Behavioral 1583404410 \
+      FL /home/lab661/Documents/SzymutkoStejskal/Digital_electronics_1/LABS/05-counter_binary/binary_counter/binary_cnt.vhd \
+      EN work/binary_cnt 1583404409
+FL /home/lab661/Documents/SzymutkoStejskal/Digital_electronics_1/LABS/05-counter_binary/binary_counter/clock_enable.vhd 2020/03/05.10:28:15 P.20131013
+EN work/clock_enable 1583404407 \
+      FL /home/lab661/Documents/SzymutkoStejskal/Digital_electronics_1/LABS/05-counter_binary/binary_counter/clock_enable.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/clock_enable/Behavioral 1583404408 \
+      FL /home/lab661/Documents/SzymutkoStejskal/Digital_electronics_1/LABS/05-counter_binary/binary_counter/clock_enable.vhd \
+      EN work/clock_enable 1583404407
+FL /home/lab661/Documents/SzymutkoStejskal/Digital_electronics_1/LABS/05-counter_binary/binary_counter/top.vhd 2020/03/05.11:33:22 P.20131013
+EN work/top 1583404413 \
+      FL /home/lab661/Documents/SzymutkoStejskal/Digital_electronics_1/LABS/05-counter_binary/binary_counter/top.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/top/Behavioral 1583404414 \
+      FL /home/lab661/Documents/SzymutkoStejskal/Digital_electronics_1/LABS/05-counter_binary/binary_counter/top.vhd \
+      EN work/top 1583404413 CP work/clock_enable CP work/binary_cnt \
+      CP work/hex_to_7seg

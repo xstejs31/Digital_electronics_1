@@ -1,0 +1,30 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -o /home/lab661/Documents/SzymutkoStejskal/Digital_electronics_1/LABS/05-counter_binary/binary_counter/top_tb0_isim_beh.exe -prj /home/lab661/Documents/SzymutkoStejskal/Digital_electronics_1/LABS/05-counter_binary/binary_counter/top_tb0_beh.prj work.top_tb0 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/lab661/Documents/SzymutkoStejskal/Digital_electronics_1/LABS/05-counter_binary/binary_counter/clock_enable.vhd" into library work
+Parsing VHDL file "/home/lab661/Documents/SzymutkoStejskal/Digital_electronics_1/LABS/05-counter_binary/binary_counter/binary_cnt.vhd" into library work
+Parsing VHDL file "/home/lab661/Documents/SzymutkoStejskal/Digital_electronics_1/LABS/05-counter_binary/binary_counter/../../03-segment/hex_to_7seg/hex_to_7seg.vhd" into library work
+Parsing VHDL file "/home/lab661/Documents/SzymutkoStejskal/Digital_electronics_1/LABS/05-counter_binary/binary_counter/top.vhd" into library work
+Parsing VHDL file "/home/lab661/Documents/SzymutkoStejskal/Digital_electronics_1/LABS/05-counter_binary/binary_counter/top_tb0.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 100588 KB
+Fuse CPU Usage: 1260 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity clock_enable [\clock_enable(('0','0','0','0','...]
+Compiling architecture behavioral of entity binary_cnt [\binary_cnt(4)\]
+Compiling architecture behavioral of entity hex_to_7seg [hex_to_7seg_default]
+Compiling architecture behavioral of entity top [top_default]
+Compiling architecture behavior of entity top_tb0
+Time Resolution for simulation is 1ps.
+Waiting for 2 sub-compilation(s) to finish...
+Compiled 13 VHDL Units
+Built simulation executable /home/lab661/Documents/SzymutkoStejskal/Digital_electronics_1/LABS/05-counter_binary/binary_counter/top_tb0_isim_beh.exe
+Fuse Memory Usage: 410820 KB
+Fuse CPU Usage: 1360 ms
+GCC CPU Usage: 480 ms
