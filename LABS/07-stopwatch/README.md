@@ -3,8 +3,8 @@
 
 # Simulace
 
-![Simulace](07-stopwatch/Stopwatch/Simulace.png)
+![Simulace](Stopwatch/Simulace.png)
 
 # Top level
 
-![Top level](07-stopwatch/Stopwatch/Toplvl.png)
+![Top level](Stopwatch/Toplvl.png)
