@@ -21,7 +21,7 @@ architecture top of top is
     signal s_Result		:unsigned(7 downto 0);
     signal s_Log_op		:std_logic;
     signal s_clock_en 	:std_logic;
-    signal s_hex		:std_logic_vector(3 downto 0);
+    signal s_seg		:std_logic_vector(3 downto 0);
   
 	begin
     -- A
@@ -80,13 +80,13 @@ architecture top of top is
 		reset => BTN0,
 		clk_i => clk_i,
 		clk_en => s_clock_en,
-		seg_out	=> s_hex,
+		seg_out	=> s_seg,
         dig_o => disp_dig_o
     );
     
     hex_to_7seg : entity work.hex_to_7seg
     port map (
-    	hex_i => s_hex,
+    	hex_i => s_seg,
         seg_o => disp_seg_o
     );
     
