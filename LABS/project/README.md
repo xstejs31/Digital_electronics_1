@@ -35,7 +35,33 @@ Tento blok má na starosti rozdělení výsledku na jednotlivé číslice (stovk
 ![Schéma ALU](ALU_schematic.png)
 
 ### Simulace:
-![Simulace_mult_add_and](ALU_mult_add_and.png)
+#### Násobení:
+![Simulace_mult](Screenshots/ALU_mult.png)
+
+| Registr| Hex | Bin | Dec |
+| ---- | ---- | ---- | ---- |
+| A | 8 | 1000 | 8 |
+| B | 9 | 1001 | 9 |
+| Result | 48 | 1001000 | 72 |
+
+#### Sčítání:
+![Simulace_add](Screenshots/ALU_add.png)
+
+| Registr| Hex | Bin | Dec |
+| ---- | ---- | ---- | ---- |
+| A | 9 | 1001 | 9 |
+| B | 4 | 0100 | 4 |
+| Result | b | 1101 | 13 |
+
+#### AND:
+![Simulace_and](Screenshots/ALU_and.png)
+
+| Registr| Hex | Bin | Dec |
+| ---- | ---- | ---- | ---- |
+| A | 3 | 0011 | 3 |
+| B | 9 | 1001 | 9 |
+| Result | 1 | 0001 | 1 |
+
 
 ### Odkazy:
 
