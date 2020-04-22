@@ -4,7 +4,8 @@
    1. [Zadání](#Zadání:)
    2. [Kód](#Kód:)
    3. [Schéma](#Schéma:)
-   4. []
+   4. [Odkazy](#Odkazy:)
+   
 
 
 ### Zadání:
@@ -32,6 +33,27 @@ Tento blok má na starosti rozdělení výsledku na jednotlivé číslice (stovk
 ### Schéma:
 ![Schéma ALU](ALU_schematic.png)
 
-###
+
+### Odkazy:
+
+**Testovací playground**     
+https://www.edaplayground.com/x/2QWc
+
+**Playground s kódem upraveným pro Coolrunner mikroprocesor**     
+https://www.edaplayground.com/x/2e67
+
+#### Inspirace
+https://electronics.stackexchange.com/questions/320416/how-to-break-multi-digit-number-into-separate-digits-in-vhdl     
+_Rozdělení čísla na jednotky, desítky, stovky_
+
+https://stackoverflow.com/questions/33264066/what-to-unsigned-does     
+_to_unsigned_
+
+https://www.csee.umbc.edu/portal/help/VHDL/numeric_std.vhdl     
+_resize funkce_
+
+https://vhdlwhiz.com/signed-unsigned/    
+_signed a unsigned_ 
 
 **Dont read me yet**
+
