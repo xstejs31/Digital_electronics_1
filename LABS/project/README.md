@@ -4,7 +4,8 @@
    1. [Zadání](#Zadání:)
    2. [Kód](#Kód:)
    3. [Schéma](#Schéma:)
-   4. [Odkazy](#Odkazy:)
+   4. [Simulace](#Simulace:)
+   5. [Odkazy](#Odkazy:)
    
 
 
@@ -33,6 +34,8 @@ Tento blok má na starosti rozdělení výsledku na jednotlivé číslice (stovk
 ### Schéma:
 ![Schéma ALU](ALU_schematic.png)
 
+### Simulace:
+![Simulace_mult_add_and](ALU_mult_add_and.png)
 
 ### Odkazy:
 
