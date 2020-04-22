@@ -1,8 +1,8 @@
 # Projekt: Vlastní ALU (Arithmetic Logic Unit)
 
 ### Obsah:
-   1. [Zadání](#Zadání:)
-   2. [Kód](#Kod:)
+   1. [Zadání](##Zadání:)
+   2. [Kód](#Kód:)
    3. [Schéma](#Schéma:)
    4. []
 
@@ -10,7 +10,7 @@
 ### Zadání:
 Možnost výběru instrukcí a vstupních hodnot za chodu aplikace. Výstup na 7segmentovém displeji.
 
-### Kod: 
+### Kód: 
 ALU obsahuje 4 bloky:   
 * ALU_block
 * split_dig_block
