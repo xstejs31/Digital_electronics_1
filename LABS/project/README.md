@@ -6,8 +6,6 @@
    3. [Schéma](#Schéma:)
    4. [Simulace](#Simulace:)
    5. [Odkazy](#Odkazy:)
-   
-
 
 ### Zadání:
 Možnost výběru instrukcí a vstupních hodnot za chodu aplikace. Výstup na 7segmentovém displeji.
@@ -43,6 +41,7 @@ Tento blok má na starosti rozdělení výsledku na jednotlivé číslice (stovk
 | A | 8 | 1000 | 8 |
 | B | 9 | 1001 | 9 |
 | Result | 48 | 1001000 | 72 |
+
 Na simulaci můžeme vidět, že segment 0 (S0) nabyde hodnoty '2' a segment 1 (S1) hodnoty '7'.
 
 #### Sčítání:
@@ -53,6 +52,7 @@ Na simulaci můžeme vidět, že segment 0 (S0) nabyde hodnoty '2' a segment 1 (
 | A | 9 | 1001 | 9 |
 | B | 4 | 0100 | 4 |
 | Result | b | 1101 | 13 |
+
 
 
 #### AND:
