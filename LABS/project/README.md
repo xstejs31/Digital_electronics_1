@@ -2,7 +2,7 @@
 
 ### Obsah:
    1. [Zadání](#Zadání:)
-   2. [Kód](#Kód:)
+   2. [Kód](#Kod:)
    3. [Schéma](#Schéma:)
    4. []
 
@@ -10,7 +10,7 @@
 ### Zadání:
 Možnost výběru instrukcí a vstupních hodnot za chodu aplikace. Výstup na 7segmentovém displeji.
 
-### Kód: 
+### Kod: 
 ALU obsahuje 4 bloky:   
 * ALU_block
 * split_dig_block
