@@ -32,7 +32,7 @@ Tento blok má na starosti rozdělení výsledku na jednotlivé číslice (stovk
 **Hex_to_7seg jednoduše převádí přijatou vstupní hodnotu z bloku split_dig na sedmi_segmentové číslo a to posílá na sedmi_segmentový displej.**
 
 ### Schéma:
-![Schéma ALU](ALU_schematic.png)
+![Schéma ALU](Screenshots/ALU_schematic.png)
 
 ### Simulace:
 #### Násobení:
@@ -43,6 +43,7 @@ Tento blok má na starosti rozdělení výsledku na jednotlivé číslice (stovk
 | A | 8 | 1000 | 8 |
 | B | 9 | 1001 | 9 |
 | Result | 48 | 1001000 | 72 |
+Na simulaci můžeme vidět, že segment 0 (S0) nabyde hodnoty '2' a segment 1 (S1) hodnoty '7'.
 
 #### Sčítání:
 ![Simulace_add](Screenshots/ALU_add.png)
@@ -52,6 +53,7 @@ Tento blok má na starosti rozdělení výsledku na jednotlivé číslice (stovk
 | A | 9 | 1001 | 9 |
 | B | 4 | 0100 | 4 |
 | Result | b | 1101 | 13 |
+
 
 #### AND:
 ![Simulace_and](Screenshots/ALU_and.png)
