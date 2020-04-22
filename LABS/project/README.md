@@ -18,7 +18,7 @@ ALU obsahuje 4 bloky:
 * hex_to_7seg_block
 
 #### ALU:
-ALU blok se stará o výpočety a logické operace. Má 2 vstupní 4 bitové registry A,B, 6 bitový registr Sel pro výběr operací a 8 bitový výstupní signál result a signál log_op. Obsahuje také vstupní signál Calc připojený na tlačítko _BTN0_, který říká bloku aby provedl kalkulaci.
+ALU blok se stará o výpočety a logické operace. Má 2 vstupní 4 bitové registry A,B, 6 bitový registr Sel pro výběr operací a 8 bitový výstupní signál result a signál log_op. Obsahuje také vstupní signál Calc připojený na tlačítko _BTN0_, který říká bloku, aby provedl kalkulaci.
 
 #### Split_dig:
 Tento blok má na starosti rozdělení výsledku na jednotlivé číslice (stovky, desítky, jednotky) a jejich výpis na displej. Obsahuje 1 vstupní signál result a příznak log_op, který blok informuje o tom, zda-li probíhala logická operace (AND, OR). Na výstupu jsou 2 signály dig_o a seg_o. Signál dig_o udává, na který sedmi-segmentový displej se bude hodnota vypisovat a signál seg_o obsahuje hodnotu, která se má vypsat.
