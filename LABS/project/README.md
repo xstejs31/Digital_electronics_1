@@ -7,10 +7,10 @@
    4. [Simulace](#Simulace:)
    5. [Odkazy](#Odkazy:)
 
-### Zadání:
+## Zadání:
 Možnost výběru instrukcí a vstupních hodnot za chodu aplikace. Výstup na 7segmentovém displeji.
 
-### Kód: 
+## Kód: 
 ALU obsahuje 4 bloky:   
 * ALU
 * split_dig
@@ -29,10 +29,10 @@ Tento blok má na starosti rozdělení výsledku na jednotlivé číslice (stovk
 #### Hex_to_7seg:
 **Hex_to_7seg jednoduše převádí přijatou vstupní hodnotu z bloku split_dig na sedmi_segmentové číslo a to posílá na sedmi_segmentový displej.**
 
-### Schéma:
+## Schéma:
 ![Schéma ALU](Screenshots/ALU_schematic.png)
 
-### Simulace:
+## Simulace:
 #### Násobení:
 ![Simulace_mult](Screenshots/ALU_mult.png)
 
@@ -65,7 +65,7 @@ Na simulaci můžeme vidět, že segment 0 (S0) nabyde hodnoty '2' a segment 1 (
 | Result | 1 | 0001 | 1 |
 
 
-### Odkazy:
+## Odkazy:
 
 **Testovací playground**     
 https://www.edaplayground.com/x/2QWc
