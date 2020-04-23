@@ -12,10 +12,10 @@ Možnost výběru instrukcí a vstupních hodnot za chodu aplikace. Výstup na 7
 
 ### Kód: 
 ALU obsahuje 4 bloky:   
-* ALU_block
-* split_dig_block
-* clock_enable_block
-* hex_to_7seg_block
+* ALU
+* split_dig
+* clock_enable
+* hex_to_7seg
 
 #### ALU:
 ALU blok se stará o výpočety a logické operace. Má 2 vstupní 4 bitové registry A,B, 6 bitový registr Sel pro výběr operací a 8 bitový výstupní signál result a signál log_op. Obsahuje také vstupní signál Calc připojený na tlačítko _BTN0_, který říká bloku, aby provedl kalkulaci.
@@ -51,7 +51,7 @@ Na simulaci můžeme vidět, že segment 0 (S0) nabyde hodnoty '2' a segment 1 (
 | ---- | ---- | ---- | ---- |
 | A | 9 | 1001 | 9 |
 | B | 4 | 0100 | 4 |
-| Result | b | 1101 | 13 |
+| Result | d | 1101 | 13 |
 
 
 
