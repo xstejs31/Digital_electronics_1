@@ -85,6 +85,3 @@ _resize funkce_
 
 https://vhdlwhiz.com/signed-unsigned/    
 _signed a unsigned_ 
-
-**Dont read me yet**
-
