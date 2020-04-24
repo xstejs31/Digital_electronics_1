@@ -56,19 +56,10 @@ Hex_to_7seg slouží k převodu přijaté vstupní hodnoty, která přijde na po
 ![Schéma ALU](Screenshots/ALU_schematic.png)
 
 ## Simulace:
-<details> 
-   <summary> Násobení </summary>
+<details>
+   <summary> Matematické operace </summary>
   
-   ![Simulace_MULT](Screenshots/ALU_mult.png)
-
-   | Registr | BIN | HEX | DEC | 
-   | ----- | ---- | ---- | --- | 
-   | A | 1111 | f | 15 |
-   | B | 1111 | f | 15 |
-   | Result | 11100001 | e1 | 255 |
-</details>
-
-<details> 
+   * <details> 
    <summary> Sčítání </summary>
    
    ![Simulace_ADD](Screenshots/ALU_add.png)
@@ -79,9 +70,49 @@ Hex_to_7seg slouží k převodu přijaté vstupní hodnoty, která přijde na po
    | B | 1001 | 9 | 9 |
    | Result | 10001 | 11 | 17 |
 
+   </details>
+   
+   * <details> 
+   <summary> Odčítání </summary>
+   
+   ![Simulace_ADD](Screenshots/ALU_sub.png)
+   
+   | Registr | BIN | HEX | DEC | 
+   | ----- | ---- | ---- | --- | 
+   | A | 1000 | 8 | 8 |
+   | B | 1001 | 9 | 9 |
+   | Result | 10001 | 11 | 17 |
+
+   </details>
+   
+   <details> 
+   <summary> Násobení </summary>
+  
+   ![Simulace_MULT](Screenshots/ALU_mult.png)
+
+   | Registr | BIN | HEX | DEC | 
+   | ----- | ---- | ---- | --- | 
+   | A | 1111 | f | 15 |
+   | B | 1111 | f | 15 |
+   | Result | 11100001 | e1 | 255 |
+   </details>
+   
+   * <details> 
+   <summary> Dělení </summary>
+   
+   ![Simulace_DIV](Screenshots/ALU_dev.png)
+   
+   | Registr | BIN | HEX | DEC | 
+   | ----- | ---- | ---- | --- | 
+   | A | 1000 | 8 | 8 |
+   | B | 1001 | 9 | 9 |
+   | Result | 10001 | 11 | 17 |
+
+   </details>
+   
 </details>
 
-<details> 
+   <details> 
    <summary> MAX </summary>
    
    ![Simulace_MAX](Screenshots/ALU_max.png)
