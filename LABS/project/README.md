@@ -85,3 +85,6 @@ _resize funkce_
 
 https://vhdlwhiz.com/signed-unsigned/    
 _signed a unsigned_ 
+
+https://link.springer.com/chapter/10.1007%2F978-1-4615-3246-0_11      
+_ror a rol_
