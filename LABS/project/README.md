@@ -114,6 +114,8 @@ Hex_to_7seg slouží k převodu přijaté vstupní hodnoty, která přijde na po
    
 </details>
 
+_Sčítáni, Odčítání, Násobení, Dělení_
+
 <details>
    <summary> Logické operace </summary>
    
@@ -196,6 +198,8 @@ Hex_to_7seg slouží k převodu přijaté vstupní hodnoty, která přijde na po
    
 </details>
 
+_AND, NAND, OR, NOR, XOR, XNOR_
+
 <details>
    <summary> Ostatní </summary>
    
@@ -276,6 +280,8 @@ Hex_to_7seg slouží k převodu přijaté vstupní hodnoty, která přijde na po
    </details>
    
 </details>
+
+_Dekrementace, Inkrementace, ROR, ROL, MAX, MIN_
 
 ## Odkazy:
 
