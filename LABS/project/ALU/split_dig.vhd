@@ -16,16 +16,12 @@ end split_dig;
 
 architecture split_dig of split_dig is
     signal S0			:unsigned(3 downto 0) := "0000";
-    signal S0_temp_log	:unsigned(3 downto 0) :="0000";
     signal S0_temp		:integer := 0;
     signal S1			:unsigned(3 downto 0) := "0000";
-    signal S1_temp_log	:unsigned(3 downto 0) :="0000";
     signal S1_temp		:integer := 0;
     signal S2			:unsigned(3 downto 0) := "0000";
-    signal S2_temp_log	:unsigned(3 downto 0) :="0000";
     signal S2_temp		:integer := 0;
     signal S3		:unsigned(3 downto 0) := "0000";  
-    signal S3_temp_log	:unsigned(3 downto 0) :="0000"; 
     
     signal seg		:unsigned(3 downto 0) := "0001";
 begin
@@ -51,33 +47,14 @@ begin
                     S1 <= to_unsigned((S1_temp mod 10),4);
             		S2_temp <= S1_temp/10;
             		S2 <= to_unsigned((S2_temp mod 10),4);
-              		--2x4bits, max 3 digits number
+              		--2x4bits, max 3 digit number
               	end if;
             elsif log_op = '1' then
-            	if clk_en = '1' then               						
-        			S0_temp_log(0) <= result(0) and '1';
-                    S0_temp_log(1) <= result(1) and '0';
-                    S0_temp_log(2) <= result(2) and '0';
-                    S0_temp_log(3) <= result(3) and '0';
-					S0 <= S0_temp_log;
-                    
-            		S1_temp_log(0) <= result(0) and '0';
-                    S1_temp_log(1) <= result(1) and '1';
-                    S1_temp_log(2) <= result(2) and '0';
-                    S1_temp_log(3) <= result(3) and '0';
-                    S1 <= S1_temp_log ror 1;
-                	
-            		S2_temp_log(0) <= result(0) and '0';
-                    S2_temp_log(1) <= result(1) and '0';
-                    S2_temp_log(2) <= result(2) and '1';
-                    S2_temp_log(3) <= result(3) and '0';
-                	S2 <= S2_temp_log ror 2;
-                    
-            		S3_temp_log(0) <= result(0) and '0';
-                    S3_temp_log(1) <= result(1) and '0';
-                    S3_temp_log(2) <= result(2) and '0';
-                    S3_temp_log(3) <= result(3) and '1';
-                    S3 <= S3_temp_log ror 3;                    
+            	if clk_en = '1' then    
+                    S0 <= (unsigned(resize(unsigned(result),4)) and "0001");
+					S1 <= (unsigned(resize(unsigned(result),4)) and "0010") ror 1;
+                    S2 <= (unsigned(resize(unsigned(result),4)) and "0100") ror 2;
+                    S3 <= (unsigned(resize(unsigned(result),4)) and "1000") ror 3;                       
            		end if;
             end if;  
          end if;     
