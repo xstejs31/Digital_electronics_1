@@ -59,7 +59,7 @@ Hex_to_7seg slouží k převodu přijaté vstupní hodnoty, která přijde na po
 <details>
    <summary> Matematické operace </summary>
   
-   * <details> 
+   <details> 
    <summary> Sčítání </summary>
    
    ![Simulace_ADD](Screenshots/ALU_add.png)
@@ -72,7 +72,7 @@ Hex_to_7seg slouží k převodu přijaté vstupní hodnoty, která přijde na po
 
    </details>
    
-   * <details> 
+   <details> 
    <summary> Odčítání </summary>
    
    ![Simulace_ADD](Screenshots/ALU_sub.png)
@@ -97,7 +97,7 @@ Hex_to_7seg slouží k převodu přijaté vstupní hodnoty, která přijde na po
    | Result | 11100001 | e1 | 255 |
    </details>
    
-   * <details> 
+   <details> 
    <summary> Dělení </summary>
    
    ![Simulace_DIV](Screenshots/ALU_dev.png)
