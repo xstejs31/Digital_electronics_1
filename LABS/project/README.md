@@ -105,7 +105,7 @@ Hex_to_7seg slouží k převodu přijaté vstupní hodnoty, která přijde na po
    | B | 0010 | 2 | 2 |
    | Result | 0010 | 2 | 2 |
 
-<details>
+</details>
 
 <details> 
    <summary> NOR </summary>
