@@ -20,7 +20,7 @@ Kód obsahuje 4 hlavní bloky:
 * hex_to_7seg
 
 #### ALU:
-ALU blok se stará o výpočety a logické operace. Má 2 vstupní 4 bitové registry A,B, 4 bitový registr Sel pro výběr operací a 8 bitový výstupní signál result. Dále signál log_op a příznaky Result_is_0, Dev_by_0 a Overflow. Obsahuje také vstupní signál Calc_i připojený na tlačítko _BTN0_, který má představovat synchronní příchod dat a řídících signálů do ALU.
+ALU blok se stará o výpočety a logické operace. Má 2 vstupní 4 bitové registry A,B, 4 bitový registr Sel pro výběr operací a 8 bitový výstupní signál result. Dále signál log_op a příznaky Result_is_0, Dev_by_0 a Overflow, příznaky jsou připojené na 3 LED diody. Obsahuje také vstupní signál Calc_i připojený na tlačítko _BTN0_, který má představovat synchronní příchod dat a řídících signálů do ALU.
 
 #### Split_dig:
 Tento blok má na starosti rozdělení výsledku na jednotlivé číslice (stovky, desítky, jednotky) a jejich výpis na displej. Obsahuje 1 vstupní signál result a příznak log_op, který blok informuje o tom, zda-li probíhala logická operace (AND, OR, XOR atd.). Na výstupu jsou 2 signály dig_o a seg_o. Signál dig_o udává, na který sedmi-segmentový displej se bude hodnota vypisovat a signál seg_o obsahuje hodnotu, která se má vypsat.
