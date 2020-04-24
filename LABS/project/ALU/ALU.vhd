@@ -6,7 +6,7 @@ entity ALU is
 	port(
     	clk_i 		:in std_logic;
         clk_en		:in std_logic;
-        Calc_i		:in std_logic;
+        Calc		:in std_logic;
         reset 		:in std_logic;
         A			:in unsigned(3 downto 0);
         B			:in unsigned(3 downto 0);
@@ -32,7 +32,7 @@ begin
             Dev_by_0 <= '0';
             Overflow <= '0';
             
-      		elsif clk_en = '1' AND Calc_i = '0' then
+      		elsif clk_en = '1' AND Calc = '0' then
               case Sel is
               -- MIN number
               	 when "0000" =>
@@ -58,7 +58,10 @@ begin
                 	if A = x"0" then
                     	Overflow <= '1';
                         Result <= x"00";
-                    else 
+                    elsif A = x"1" then
+                    	Result_is_0 <= '1';
+                        Result <= x"00";
+                    else    
                 		Log_op <= '0';
                 		Result <= unsigned(resize(unsigned(A),8)) - 1;
              		end if;
