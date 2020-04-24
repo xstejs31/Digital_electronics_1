@@ -6,21 +6,19 @@
    3. [Schéma](#Schéma:)
    4. [Simulace](#Simulace:)
    5. [Odkazy](#Odkazy:)
-   
 
-
-### Zadání:
+## Zadání:
 Možnost výběru instrukcí a vstupních hodnot za chodu aplikace. Výstup na 7segmentovém displeji.
 
-### Kód: 
+## Kód: 
 ALU obsahuje 4 bloky:   
-* ALU_block
-* split_dig_block
-* clock_enable_block
-* hex_to_7seg_block
+* ALU
+* split_dig
+* clock_enable
+* hex_to_7seg
 
 #### ALU:
-ALU blok se stará o výpočety a logické operace. Má 2 vstupní 4 bitové registry A,B, 6 bitový registr Sel pro výběr operací a 8 bitový výstupní signál result a signál log_op.
+ALU blok se stará o výpočety a logické operace. Má 2 vstupní 4 bitové registry A,B, 6 bitový registr Sel pro výběr operací a 8 bitový výstupní signál result a signál log_op. Obsahuje také vstupní signál Calc připojený na tlačítko _BTN0_, který říká bloku, aby provedl kalkulaci.
 
 #### Split_dig:
 Tento blok má na starosti rozdělení výsledku na jednotlivé číslice (stovky, desítky, jednotky) a jejich výpis na displej. Obsahuje 1 vstupní signál result a příznak log_op, který blok informuje o tom, zda-li probíhala logická operace (AND, OR). Na výstupu jsou 2 signály dig_o a seg_o. Signál dig_o udává, na který sedmi-segmentový displej se bude hodnota vypisovat a signál seg_o obsahuje hodnotu, která se má vypsat.
@@ -31,10 +29,10 @@ Tento blok má na starosti rozdělení výsledku na jednotlivé číslice (stovk
 #### Hex_to_7seg:
 **Hex_to_7seg jednoduše převádí přijatou vstupní hodnotu z bloku split_dig na sedmi_segmentové číslo a to posílá na sedmi_segmentový displej.**
 
-### Schéma:
-![Schéma ALU](ALU_schematic.png)
+## Schéma:
+![Schéma ALU](Screenshots/ALU_schematic.png)
 
-### Simulace:
+## Simulace:
 #### Násobení:
 ![Simulace_mult](Screenshots/ALU_mult.png)
 
@@ -44,6 +42,8 @@ Tento blok má na starosti rozdělení výsledku na jednotlivé číslice (stovk
 | B | 9 | 1001 | 9 |
 | Result | 48 | 1001000 | 72 |
 
+Na simulaci můžeme vidět, že segment 0 (S0) nabyde hodnoty '2' a segment 1 (S1) hodnoty '7'.
+
 #### Sčítání:
 ![Simulace_add](Screenshots/ALU_add.png)
 
@@ -51,7 +51,9 @@ Tento blok má na starosti rozdělení výsledku na jednotlivé číslice (stovk
 | ---- | ---- | ---- | ---- |
 | A | 9 | 1001 | 9 |
 | B | 4 | 0100 | 4 |
-| Result | b | 1101 | 13 |
+| Result | d | 1101 | 13 |
+
+
 
 #### AND:
 ![Simulace_and](Screenshots/ALU_and.png)
@@ -63,7 +65,7 @@ Tento blok má na starosti rozdělení výsledku na jednotlivé číslice (stovk
 | Result | 1 | 0001 | 1 |
 
 
-### Odkazy:
+## Odkazy:
 
 **Testovací playground**     
 https://www.edaplayground.com/x/2QWc
@@ -84,5 +86,5 @@ _resize funkce_
 https://vhdlwhiz.com/signed-unsigned/    
 _signed a unsigned_ 
 
-**Dont read me yet**
-
+https://link.springer.com/chapter/10.1007%2F978-1-4615-3246-0_11      
+_ror a rol_
