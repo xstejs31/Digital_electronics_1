@@ -98,7 +98,7 @@ Hex_to_7seg slouží k převodu přijaté vstupní hodnoty, která přijde na po
 | Registr | BIN | HEX | DEC | 
 | ----- | ---- | ---- | --- | 
 | A | 0110 | 6 | 6 |
-| B | 1001 | 2 | 2 |
+| B | 0010 | 2 | 2 |
 | Result | 1001 | 9 | 9 |
 
 #### XOR: 
@@ -106,9 +106,9 @@ Hex_to_7seg slouží k převodu přijaté vstupní hodnoty, která přijde na po
 
 | Registr | BIN | HEX | DEC | 
 | ----- | ---- | ---- | --- | 
-| A | f | 1111 | 15 |
-| B | f | 1111 | 15 |
-| Result | e1 | 11100001 | 255 |
+| A | 0111 | 7 | 7 |
+| B | 1111 | f | 15 |
+| Result | 1000 | 9 | 9 |
 
 #### DEC:
 ![Simulace_DEC](Screenshots/ALU_Aminus.png)
