@@ -34,8 +34,8 @@ Hex_to_7seg slouží k převodu přijaté vstupní hodnoty, která přijde na po
 #### Instrukce:
 | Binární kód instrukce (Sel) | Zkratka | Popis |
 | ------ | ----- | ------ |
-| 0000 | MIN | Na výstup pošle nižší ze dvou čísel |
-| 1111 | MAX | Na výstup pošle vyšší ze dvou čísel |
+| 0000 | MIN | Na výstup předá nižší ze dvou čísel |
+| 1111 | MAX | Na výstup předá vyšší ze dvou čísel |
 | 0001 | ADD | Součet regitru A a B |
 | 0010 | SUB | Odečte registr B od registr A |
 | 0100 | MULT | Násobení registrů A a B |
@@ -57,36 +57,22 @@ Hex_to_7seg slouží k převodu přijaté vstupní hodnoty, která přijde na po
 
 ## Simulace:
 #### Násobení:
-![Simulace_mult](Screenshots/ALU_mult.png)
-
-| Registr| Hex | Bin | Dec |
-| ---- | ---- | ---- | ---- |
-| A | 8 | 1000 | 8 |
-| B | 9 | 1001 | 9 |
-| Result | 48 | 1001000 | 72 |
-
-Na simulaci můžeme vidět, že segment 0 (S0) nabyde hodnoty '2' a segment 1 (S1) hodnoty '7'.
+![Simulace_MULT](Screenshots/ALU_mult.png)
 
 #### Sčítání:
-![Simulace_add](Screenshots/ALU_add.png)
+![Simulace_ADD](Screenshots/ALU_add.png)
 
-| Registr| Hex | Bin | Dec |
-| ---- | ---- | ---- | ---- |
-| A | 9 | 1001 | 9 |
-| B | 4 | 0100 | 4 |
-| Result | d | 1101 | 13 |
-
-
+#### MAX:
+![Simulace_MAX](Screenshots/ALU_max.png)
 
 #### AND:
-![Simulace_and](Screenshots/ALU_and.png)
+![Simulace_AND](Screenshots/ALU_and.png)
 
-| Registr| Hex | Bin | Dec |
-| ---- | ---- | ---- | ---- |
-| A | 3 | 0011 | 3 |
-| B | 9 | 1001 | 9 |
-| Result | 1 | 0001 | 1 |
+#### NOR:
+![Simulace_NOR](Screenshots/ALU_nor.png)
 
+#### XOR: 
+![Simulace_XOR](Screenshots/ALU_xor.png)
 
 ## Odkazy:
 
