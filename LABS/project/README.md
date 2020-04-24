@@ -58,7 +58,7 @@ Hex_to_7seg slouží k převodu přijaté vstupní hodnoty, která přijde na po
 ## Simulace:
 <details>
    <summary> Matematické operace </summary>
-  
+   &nbsp;
    <details> 
    <summary> Sčítání </summary>
    
@@ -112,13 +112,12 @@ Hex_to_7seg slouží k převodu přijaté vstupní hodnoty, která přijde na po
    _Příznak Div_by_0 je v hodnotě '1', jednalo se o pokus dělit nulou._ 
    </details>
    
+   &nbsp;
 </details>
-
-&nbsp;
 
 <details>
    <summary> Logické operace </summary>
-   
+   &nbsp;
    <details> 
    <summary> AND </summary>
    
@@ -196,13 +195,12 @@ Hex_to_7seg slouží k převodu přijaté vstupní hodnoty, která přijde na po
 
    </details>
    
+   &nbsp;
 </details>
-
-&nbsp;
 
 <details>
    <summary> Ostatní </summary>
-   
+   &nbsp;
    <details> 
    <summary> Dektrementace </summary>
    
@@ -279,9 +277,8 @@ Hex_to_7seg slouží k převodu přijaté vstupní hodnoty, která přijde na po
    
    </details>
    
+   &nbsp;
 </details>
-
-&nbsp;
 
 ## Odkazy:
 
@@ -305,4 +302,4 @@ https://vhdlwhiz.com/signed-unsigned/
 _signed a unsigned_ 
 
 https://link.springer.com/chapter/10.1007%2F978-1-4615-3246-0_11      
-_ror a rol_
+_ror a rol operace_
