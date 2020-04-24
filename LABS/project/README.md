@@ -112,6 +112,86 @@ Hex_to_7seg slouží k převodu přijaté vstupní hodnoty, která přijde na po
    
 </details>
 
+<details>
+   <summary> Logické operace </summary>
+   
+   <details> 
+   <summary> AND </summary>
+   
+   ![Simulace_AND](Screenshots/ALU_and.png)
+
+   | Registr | BIN | HEX | DEC | 
+   | ----- | ---- | ---- | --- | 
+   | A | 0111 | 7 | 7 |
+   | B | 0010 | 2 | 2 |
+   | Result | 0010 | 2 | 2 |
+
+   </details>
+   
+   <details>
+   <summary> NAND </summary>
+   
+   ![Simulace_NAND](Screenshots/ALU_nand.png)
+
+   | Registr | BIN | HEX | DEC | 
+   | ----- | ---- | ---- | --- | 
+   | A | 0111 | 7 | 7 |
+   | B | 0010 | 2 | 2 |
+   | Result | 0010 | 2 | 2 |
+
+   </details>
+
+   <details>
+   <summary> OR </summary>
+   
+   ![Simulace_OR](Screenshots/ALU_or.png)
+
+   | Registr | BIN | HEX | DEC | 
+   | ----- | ---- | ---- | --- | 
+   | A | 0111 | 7 | 7 |
+   | B | 0010 | 2 | 2 |
+   | Result | 0010 | 2 | 2 |
+
+   </details>
+
+   <details> 
+   <summary> NOR </summary>
+   
+   ![Simulace_NOR](Screenshots/ALU_nor.png)
+
+   | Registr | BIN | HEX | DEC |   
+   | ----- | ---- | ---- | --- | 
+   | A | 0110 | 6 | 6 |
+   | B | 0010 | 2 | 2 |
+   | Result | 1001 | 9 | 9 |
+
+   </details>
+
+   <details> 
+   <summary> XOR </summary>
+   
+   ![Simulace_XOR](Screenshots/ALU_xor.png)
+
+   | Registr | BIN | HEX | DEC | 
+   | ----- | ---- | ---- | --- | 
+   | A | 0111 | 7 | 7 |
+   | B | 1111 | f | 15 |
+   | Result | 1000 | 9 | 9 |
+   </details>
+
+   <details>
+   <summary> XNOR </summary>
+   
+   ![Simulace_XNOR](Screenshots/ALU_xnor.png)
+
+   | Registr | BIN | HEX | DEC | 
+   | ----- | ---- | ---- | --- | 
+   | A | 0111 | 7 | 7 |
+   | B | 0010 | 2 | 2 |
+   | Result | 0010 | 2 | 2 |
+
+   </details>
+
    <details> 
    <summary> MAX </summary>
    
@@ -123,44 +203,8 @@ Hex_to_7seg slouží k převodu přijaté vstupní hodnoty, která přijde na po
    | B | 1111 | f | 15 |
    | Result | 1111 | f | 15 |
 
-</details>
-
-<details> 
-   <summary> AND </summary>
+   </details>
    
-   ![Simulace_AND](Screenshots/ALU_and.png)
-
-   | Registr | BIN | HEX | DEC | 
-   | ----- | ---- | ---- | --- | 
-   | A | 0111 | 7 | 7 |
-   | B | 0010 | 2 | 2 |
-   | Result | 0010 | 2 | 2 |
-
-</details>
-
-<details> 
-   <summary> NOR </summary>
-   
-   ![Simulace_NOR](Screenshots/ALU_nor.png)
-
-   | Registr | BIN | HEX | DEC |   
-   | ----- | ---- | ---- | --- | 
-   | A | 0110 | 6 | 6 |
-   | B | 0010 | 2 | 2 |
-   | Result | 1001 | 9 | 9 |
-
-</details>
-
-<details> 
-   <summary> XOR </summary>
-   
-   ![Simulace_XOR](Screenshots/ALU_xor.png)
-
-   | Registr | BIN | HEX | DEC | 
-   | ----- | ---- | ---- | --- | 
-   | A | 0111 | 7 | 7 |
-   | B | 1111 | f | 15 |
-   | Result | 1000 | 9 | 9 |
 </details>
 
 <details> 
