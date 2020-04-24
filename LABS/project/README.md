@@ -207,7 +207,10 @@ Hex_to_7seg slouží k převodu přijaté vstupní hodnoty, která přijde na po
    
 </details>
 
-<details> 
+<details>
+   <summary> Ostatní </summary>
+   
+   <details> 
    <summary> Dektrementace </summary>
    
    ![Simulace_DEC](Screenshots/ALU_Aminus.png)
@@ -219,8 +222,69 @@ Hex_to_7seg slouží k převodu přijaté vstupní hodnoty, která přijde na po
 
    _Signál Result_is_0 nabyde hodnotu '1'._
    
-</details>
+   </details>
+   
+   <details> 
+   <summary> Inkrementace </summary>
+   
+   ![Simulace_INC](Screenshots/ALU_Aplus.png)
 
+   | Registr | BIN | HEX | DEC | 
+   | ----- | ---- | ---- | --- | 
+   | A | 0001 | 1 | 1 |
+   | Result | 0000 | 0 | 0 |     
+   
+   </details>
+   
+   <details> 
+   <summary> Posun do prava </summary>
+   
+   ![Simulace_ROR](Screenshots/ALU_ror.png)
+
+   | Registr | BIN | HEX | DEC | 
+   | ----- | ---- | ---- | --- | 
+   | A | 0001 | 1 | 1 |
+   | Result | 0000 | 0 | 0 |     
+
+   </details>
+   
+   <details> 
+   <summary> Posun do leva </summary>
+   
+   ![Simulace_ROL](Screenshots/ALU_rol.png)
+
+   | Registr | BIN | HEX | DEC | 
+   | ----- | ---- | ---- | --- | 
+   | A | 0001 | 1 | 1 |
+   | Result | 0000 | 0 | 0 |     
+
+   </details>
+   
+   <details> 
+   <summary> MAX </summary>
+   
+   ![Simulace_MAX](Screenshots/ALU_max.png)
+
+   | Registr | BIN | HEX | DEC | 
+   | ----- | ---- | ---- | --- | 
+   | A | 0001 | 1 | 1 |
+   | Result | 0000 | 0 | 0 |     
+
+   </details>
+   
+   <details> 
+   <summary> MIN </summary>
+   
+   ![Simulace_MIN](Screenshots/ALU_min.png)
+
+   | Registr | BIN | HEX | DEC | 
+   | ----- | ---- | ---- | --- | 
+   | A | 0001 | 1 | 1 |
+   | Result | 0000 | 0 | 0 |     
+
+   </details>
+   
+</details>
 
 ## Odkazy:
 
