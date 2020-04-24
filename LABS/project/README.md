@@ -75,14 +75,15 @@ Hex_to_7seg slouží k převodu přijaté vstupní hodnoty, která přijde na po
    <details> 
    <summary> Odčítání </summary>
    
-   ![Simulace_ADD](Screenshots/ALU_sub.png)
+   ![Simulace_SUB](Screenshots/ALU_sub.png)
    
    | Registr | BIN | HEX | DEC | 
    | ----- | ---- | ---- | --- | 
-   | A | 1000 | 8 | 8 |
+   | A | 0100 | 4 | 4 |
    | B | 1001 | 9 | 9 |
-   | Result | 10001 | 11 | 17 |
+   | Result | 0000 | 0 | 0 |
 
+   _Overflow příznak je v hodnotě '1', protože došlo k přetečení._
    </details>
    
    <details> 
@@ -105,9 +106,10 @@ Hex_to_7seg slouží k převodu přijaté vstupní hodnoty, která přijde na po
    | Registr | BIN | HEX | DEC | 
    | ----- | ---- | ---- | --- | 
    | A | 1000 | 8 | 8 |
-   | B | 1001 | 9 | 9 |
-   | Result | 10001 | 11 | 17 |
+   | B | 0000 | 0 | 0 |
+   | Result | 0000 | 0 | 0 |
 
+   _Příznak Div_by_0 je v hodnotě '1', jednalo se o pokus dělit nulou._ 
    </details>
    
 </details>
@@ -135,9 +137,9 @@ Hex_to_7seg slouží k převodu přijaté vstupní hodnoty, která přijde na po
 
    | Registr | BIN | HEX | DEC | 
    | ----- | ---- | ---- | --- | 
-   | A | 0111 | 7 | 7 |
-   | B | 0010 | 2 | 2 |
-   | Result | 0010 | 2 | 2 |
+   | A | 1000 | 9 | 9 |
+   | B | 1100 | c | 12 |
+   | Result | 1000 | 9 | 9 |
 
    </details>
 
@@ -161,9 +163,9 @@ Hex_to_7seg slouží k převodu přijaté vstupní hodnoty, která přijde na po
 
    | Registr | BIN | HEX | DEC |   
    | ----- | ---- | ---- | --- | 
-   | A | 0110 | 6 | 6 |
-   | B | 0010 | 2 | 2 |
-   | Result | 1001 | 9 | 9 |
+   | A | 0101 | 5 | 5 |
+   | B | 1000 | 8 | 8 |
+   | Result | 1101 | d | 13 |
 
    </details>
 
@@ -186,22 +188,9 @@ Hex_to_7seg slouží k převodu přijaté vstupní hodnoty, která přijde na po
 
    | Registr | BIN | HEX | DEC | 
    | ----- | ---- | ---- | --- | 
-   | A | 0111 | 7 | 7 |
-   | B | 0010 | 2 | 2 |
-   | Result | 0010 | 2 | 2 |
-
-   </details>
-
-   <details> 
-   <summary> MAX </summary>
-   
-   ![Simulace_MAX](Screenshots/ALU_max.png)
-
-   | Registr | BIN | HEX | DEC | 
-   | ----- | ---- | ---- | --- | 
-   | A | 0101 | 5 | 5 |
-   | B | 1111 | f | 15 |
-   | Result | 1111 | f | 15 |
+   | A | 1101 | d | 13 |
+   | B | 0100 | 4 | 4 |
+   | Result | 0110 | 6 | 6 |
 
    </details>
    
@@ -231,8 +220,8 @@ Hex_to_7seg slouží k převodu přijaté vstupní hodnoty, která přijde na po
 
    | Registr | BIN | HEX | DEC | 
    | ----- | ---- | ---- | --- | 
-   | A | 0001 | 1 | 1 |
-   | Result | 0000 | 0 | 0 |     
+   | A | 0101 | 5 | 5 |
+   | Result | 0110 | 6 | 6 |     
    
    </details>
    
@@ -243,8 +232,8 @@ Hex_to_7seg slouží k převodu přijaté vstupní hodnoty, která přijde na po
 
    | Registr | BIN | HEX | DEC | 
    | ----- | ---- | ---- | --- | 
-   | A | 0001 | 1 | 1 |
-   | Result | 0000 | 0 | 0 |     
+   | A | 0110 | 6 | 6 |
+   | Result | 0011 | 3 | 3 |     
 
    </details>
    
@@ -255,8 +244,8 @@ Hex_to_7seg slouží k převodu přijaté vstupní hodnoty, která přijde na po
 
    | Registr | BIN | HEX | DEC | 
    | ----- | ---- | ---- | --- | 
-   | A | 0001 | 1 | 1 |
-   | Result | 0000 | 0 | 0 |     
+   | A | 0110 | 6 | 6 |
+   | Result | 1100 | c | 12 |     
 
    </details>
    
@@ -267,8 +256,9 @@ Hex_to_7seg slouží k převodu přijaté vstupní hodnoty, která přijde na po
 
    | Registr | BIN | HEX | DEC | 
    | ----- | ---- | ---- | --- | 
-   | A | 0001 | 1 | 1 |
-   | Result | 0000 | 0 | 0 |     
+   | A | 0101 | 5 | 5 |
+   | B | 1111 | f | 15 |
+   | Result | 1111 | f | 15 |
 
    </details>
    
@@ -279,9 +269,10 @@ Hex_to_7seg slouží k převodu přijaté vstupní hodnoty, která přijde na po
 
    | Registr | BIN | HEX | DEC | 
    | ----- | ---- | ---- | --- | 
-   | A | 0001 | 1 | 1 |
-   | Result | 0000 | 0 | 0 |     
-
+   | A | 0101 | 5 | 5 |
+   | B | 1111 | f | 15 |
+   | Result | 0101 | 5 | 5 |
+   
    </details>
    
 </details>
