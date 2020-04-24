@@ -37,8 +37,8 @@ Hex_to_7seg slouží k převodu přijaté vstupní hodnoty, která přijde na po
 | 0000 | MIN | Na výstup předá nižší ze dvou čísel |
 | 1111 | MAX | Na výstup předá vyšší ze dvou čísel |
 | 0001 | ADD | Součet regitru A a B |
-| 0010 | SUB | Odečte registr B od registr A |
-| 0100 | MULT | Násobení registrů A a B |
+| 0010 | SUB | Odečte registr B od registru A |
+| 0100 | MULT | Násobení registru A a B |
 | 1000 | DEV | Dělení obsahu registru A registrem B |
 | 1010 | INC | Inkrementace registru A |
 | 0101 | DEC | Dektrementace registru A |
@@ -59,20 +59,66 @@ Hex_to_7seg slouží k převodu přijaté vstupní hodnoty, která přijde na po
 #### Násobení:
 ![Simulace_MULT](Screenshots/ALU_mult.png)
 
+| Registr | BIN | HEX | DEC | 
+| ----- | ---- | ---- | --- | 
+| A | 1111 | f | 15 |
+| B | 1111 | f | 15 |
+| Result | 11100001 | e1 | 255 |
+
 #### Sčítání:
 ![Simulace_ADD](Screenshots/ALU_add.png)
+
+| Registr | BIN | HEX | DEC | 
+| ----- | ---- | ---- | --- | 
+| A | 1000 | 8 | 8 |
+| B | 1001 | 9 | 9 |
+| Result | 10001 | 11 | 17 |
 
 #### MAX:
 ![Simulace_MAX](Screenshots/ALU_max.png)
 
+| Registr | BIN | HEX | DEC | 
+| ----- | ---- | ---- | --- | 
+| A | 0101 | 5 | 5 |
+| B | 1111 | f | 15 |
+| Result | 1111 | f | 15 |
+
 #### AND:
 ![Simulace_AND](Screenshots/ALU_and.png)
+
+| Registr | BIN | HEX | DEC | 
+| ----- | ---- | ---- | --- | 
+| A | 0111 | 7 | 7 |
+| B | 0010 | 2 | 2 |
+| Result | 0010 | 2 | 2 |
 
 #### NOR:
 ![Simulace_NOR](Screenshots/ALU_nor.png)
 
+| Registr | BIN | HEX | DEC | 
+| ----- | ---- | ---- | --- | 
+| A | 0110 | 6 | 6 |
+| B | 1001 | 2 | 2 |
+| Result | 1001 | 9 | 9 |
+
 #### XOR: 
 ![Simulace_XOR](Screenshots/ALU_xor.png)
+
+| Registr | BIN | HEX | DEC | 
+| ----- | ---- | ---- | --- | 
+| A | f | 1111 | 15 |
+| B | f | 1111 | 15 |
+| Result | e1 | 11100001 | 255 |
+
+#### DEC:
+![Simulace_DEC](Screenshots/ALU_Aminus.png)
+
+| Registr | BIN | HEX | DEC | 
+| ----- | ---- | ---- | --- | 
+| A | 0001 | 1 | 1 |
+| Result | 0000 | 0 | 0 |     
+
+_Signál Result_is_0 nabyde hodnotu '1'._
 
 ## Odkazy:
 
