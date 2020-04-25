@@ -2,17 +2,17 @@
 #### Co je ALU:
 ALU nebo-li Aritmeticko-Logická jednotka, je kombinační digitální elektronický obvod, který provádí aritmetické a logické bitové operace. ALU se dnes využívá v mnoha elektronických zařízeních, převážně však v procesorech a mikroprocesorech. 
 
-### Obsah:
-   1. [Zadání](#Zadání:)
-   2. [Kód](#Kód:)
-   3. [Schéma](#Schéma:)
-   4. [Simulace](#Simulace:)
-   5. [Odkazy](#Odkazy:)
+### Obsah
+1. [Zadání](#Zadání)
+2. [Kód](#Kód)
+3. [Schéma](#Schéma)
+4. [Simulace](#Simulace)
+5. [Odkazy](#Odkazy)
 
-## Zadání:
+## Zadání
 Možnost výběru instrukcí a vstupních hodnot za chodu aplikace. Výstup na 7segmentovém displeji.
 
-## Kód: 
+## Kód
 Kód obsahuje 4 hlavní bloky:   
 * ALU
 * split_dig
@@ -52,10 +52,10 @@ Hex_to_7seg slouží k převodu přijaté vstupní hodnoty, která přijde na po
 | 1101 | XNOR | Operace A XNOR B |
 
 
-## Schéma:
+## Schéma
 ![Schéma ALU](Screenshots/ALU_schematic.png)
 
-## Simulace:
+## Simulace
 <details>
    <summary> Matematické operace </summary>
    &nbsp;
@@ -296,7 +296,7 @@ Hex_to_7seg slouží k převodu přijaté vstupní hodnoty, která přijde na po
    &nbsp;
 </details>
 
-## Odkazy:
+## Odkazy
 
 **Testovací playground**     
 https://www.edaplayground.com/x/2QWc
