@@ -128,7 +128,7 @@ Hex_to_7seg slouží k převodu přijaté vstupní hodnoty, která přijde na po
    _Příznak Div_by_0 je v hodnotě '1', jednalo se o pokus dělit nulou._ 
    </details>
    
-   
+   &nbsp;
 </details>
 
 <details>
@@ -211,7 +211,7 @@ Hex_to_7seg slouží k převodu přijaté vstupní hodnoty, která přijde na po
 
    </details>
    
-   
+   &nbsp;
 </details>
 
 <details>
@@ -293,7 +293,7 @@ Hex_to_7seg slouží k převodu přijaté vstupní hodnoty, která přijde na po
    
    </details>
    
-   
+   &nbsp;
 </details>
 
 ## Odkazy:
