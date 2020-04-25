@@ -293,7 +293,6 @@ Hex_to_7seg slouží k převodu přijaté vstupní hodnoty, která přijde na po
    
    </details>
    
-   &nbsp;
 </details>
 
 ## Odkazy
