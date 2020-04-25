@@ -75,7 +75,7 @@ Hex_to_7seg slouží k převodu přijaté vstupní hodnoty, která přijde na po
    <details> 
    <summary> Odčítání </summary>
    
-   ![Simulace_SUB](Screenshots/ALE_sub2.png)
+   ![Simulace_SUB](Screenshots/ALU_sub2.png)
    
    | Registr | BIN | HEX | DEC | 
    | ----- | ---- | ---- | --- | 
