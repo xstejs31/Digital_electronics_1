@@ -75,6 +75,14 @@ Hex_to_7seg slouží k převodu přijaté vstupní hodnoty, která přijde na po
    <details> 
    <summary> Odčítání </summary>
    
+   ![Simulace_SUB](Screenshots/ALE_sub2.png)
+   
+   | Registr | BIN | HEX | DEC | 
+   | ----- | ---- | ---- | --- | 
+   | A | 1111 | f | 15 |
+   | B | 1001 | 9 | 9 |
+   | Result | 0110 | 6 | 6 |
+   
    ![Simulace_SUB](Screenshots/ALU_sub.png)
    
    | Registr | BIN | HEX | DEC | 
@@ -95,11 +103,19 @@ Hex_to_7seg slouží k převodu přijaté vstupní hodnoty, která přijde na po
    | ----- | ---- | ---- | --- | 
    | A | 1111 | f | 15 |
    | B | 1111 | f | 15 |
-   | Result | 11100001 | e1 | 255 |
+   | Result | 11100001 | e1 | 225 |
    </details>
    
    <details> 
    <summary> Dělení </summary>
+   
+   ![Simulace_DIV](Screenshots/ALU_div2.png)
+   
+   | Registr | BIN | HEX | DEC | 
+   | ----- | ---- | ---- | --- | 
+   | A | 1000 | 8 | 8 |
+   | B | 0010 | 2 | 2 |
+   | Result | 0100 | 4 | 4 |
    
    ![Simulace_DIV](Screenshots/ALU_dev.png)
    
@@ -140,7 +156,7 @@ Hex_to_7seg slouží k převodu přijaté vstupní hodnoty, která přijde na po
    | ----- | ---- | ---- | --- | 
    | A | 1000 | 9 | 9 |
    | B | 1100 | c | 12 |
-   | Result | 1000 | 9 | 9 |
+   | Result | 0111 | 7 | 7 |
 
    </details>
 
@@ -149,11 +165,11 @@ Hex_to_7seg slouží k převodu přijaté vstupní hodnoty, která přijde na po
    
    ![Simulace_OR](Screenshots/ALU_or.png)
 
-   | Registr | BIN | HEX | DEC | 
+   | Registr | BIN | HEX | DEC |   
    | ----- | ---- | ---- | --- | 
-   | A | 0111 | 7 | 7 |
-   | B | 0010 | 2 | 2 |
-   | Result | 0010 | 2 | 2 |
+   | A | 0101 | 5 | 5 |
+   | B | 1000 | 8 | 8 |
+   | Result | 1101 | d | 13 |   
 
    </details>
 
@@ -162,11 +178,11 @@ Hex_to_7seg slouží k převodu přijaté vstupní hodnoty, která přijde na po
    
    ![Simulace_NOR](Screenshots/ALU_nor.png)
 
-   | Registr | BIN | HEX | DEC |   
+   | Registr | BIN | HEX | DEC | 
    | ----- | ---- | ---- | --- | 
-   | A | 0101 | 5 | 5 |
-   | B | 1000 | 8 | 8 |
-   | Result | 1101 | d | 13 |
+   | A | 0110 | 6 | 6 |
+   | B | 0010 | 2 | 2 |
+   | Result | 1001 | 9 | 9 |
 
    </details>
 
